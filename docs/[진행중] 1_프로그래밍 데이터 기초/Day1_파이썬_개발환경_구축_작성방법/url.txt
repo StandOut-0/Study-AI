@@ -1,0 +1,19 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/main/
+
+스터디기록 - 블로그
+SK 네트웍스 AI 캠프 - 1_프로그래밍 데이터 기초 - Day1_파이썬_개발환경_구축_작성방법
+https://standout.tistory.com/manage/newpost/1658?type=post&returnURL=https%3A%2F%2Fstandout.tistory.com%2Fmanage%2Fposts%2F
+
+에러기록
+1. 이 시스템에서 스크립트를 실행할 수 없으므로 ~ 파일을 로드할 수 없습니다. 자세한 내용은about_Execution_Policies(https://go.microsoft.com/fwlink/?LinkID=135170)를 참조하십시오.
+https://standout.tistory.com/1656
+2. git 이전 커밋 메세지 수정하기 $ git rebase -i HEAD~5
+https://standout.tistory.com/1657
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것
+ps://shelfstories.tistory.com/183
