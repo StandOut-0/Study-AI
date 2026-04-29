@@ -1,0 +1,16 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day2
+
+스터디기록 - 블로그
+https://standout.tistory.com/manage/newpost/1660
+
+에러기록
+1. git log 에러코드 128
+https://standout.tistory.com/1659
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것
+https://shelfstories.tistory.com/183
