@@ -1,5 +1,6 @@
 import my_collections.test_list.list1_index_slice as list1
 import my_collections.test_list.list2_insert_append_remove_pop_extend_reverse_sort_count as list2
+import my_collections.test_tuple.tuple_sample as tuple1
 # from my_collections.test_list.list_sample import make_list1
 
 
@@ -7,7 +8,7 @@ import my_collections.test_list.list2_insert_append_remove_pop_extend_reverse_so
 if __name__ == "__main__":
     print("start---------------------------------")
 
-    whatfile = "list2"
+    whatfile = "tuple1"
     
     if whatfile == "list1":
         print(list1.make_list1())
@@ -33,4 +34,17 @@ if __name__ == "__main__":
         print(list2.list_sort())
         print(list2.list_count())
 
+    elif whatfile == "tuple1":
+        print(tuple1.make_tuple1(), type(tuple1.make_tuple1()), id(tuple1.make_tuple1()))
+
+        print(tuple1.typle_indexing())
+        print(tuple1.tuple_slicing())   
+        print(tuple1.tuple_tuple())
+        print(type(tuple1.istupe1()))
+        print(type(tuple1.istupe2()))
+        print(type(tuple1.istupe3()))
+        print(tuple1.tuplecanreturn(), type(tuple1.tuplecanreturn()))
+
+        print(tuple1.tuple_builtin())
+    
     print("end---------------------------------")
