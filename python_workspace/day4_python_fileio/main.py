@@ -1,5 +1,6 @@
 import fileio_sample.fileio_module1 as fs
 import while_sample.while_sample as ws  
+import fileio_sample.fileio_module2 as fs2  
 
 prompt = """
               1. 파일 입출력 테스트 - w
@@ -11,7 +12,10 @@ prompt = """
               7. 유니코드 변환기
               8. os모듈 예시
               9. 메뉴 출력
-              10. 프로그램 종료"""
+
+              10. 이진데이터로 파일저장하기
+              11. 파일이름 바꾸기
+              99. 프로그램 종료"""
 
 def menu():
     print(prompt)
@@ -40,7 +44,14 @@ def menu():
                 fs.test_osmodule()
             elif no == 9:
                 print(prompt)
+
             elif no == 10:
+                fs2.test_binary() 
+            elif no == 11:
+                file = str(input('파일명.확장자 입력 : '))
+                new_name = str(input('새로운 파일명 입력 : '))
+                fs2.test_filexists(file, new_name)
+            elif no == 99:
                 print('프로그램 종료')
                 break
         except Exception as e:
