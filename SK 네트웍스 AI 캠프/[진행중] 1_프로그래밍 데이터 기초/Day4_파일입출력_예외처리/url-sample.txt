@@ -1,0 +1,19 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day4
+
+스터디기록 - 블로그
+https://standout.tistory.com/1663
+
+에러기록
+1. Cannot delete branch '~' checked out at '~'
+https://standout.tistory.com/1664
+
+1. Permission to ~/python_assignment1.git denied to *
+https://standout.tistory.com/1665
+
+독서기록 - 블로그
+1. 타이틀
+https://shelfstories.tistory.com/183
