@@ -1,0 +1,28 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day6
+
+스터디기록 - 블로그
+https://standout.tistory.com/1684
+
+에러기록
+1. pip install build: dist 파일 안생길때
+https://standout.tistory.com/1679
+
+2. Python 파이썬 모듈과 Wheel의 차이
+https://standout.tistory.com/1680
+
+3. 계정이 여러개일때 : git -c diff.mnemonicprefix=false -c core.quotepath=false --no-optional-locks push -v origin main:mainremote: Permission to .git denied to -1.fatal: unable to access 'https://github.com//.git/': The requested URL returned error: 403Pushing to h
+https://standout.tistory.com/1681
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것.
+https://shelfstories.tistory.com/183
+
+2. 혼자 공부하는 파이썬 
+ - 혼자 공부하는 파이썬 - Chapter 01 파이썬 시작하기
+    https://standout.tistory.com/1683
+ - 혼자 공부하는 파이썬 - Chapter 02 자료형
+    https://standout.tistory.com/1682
