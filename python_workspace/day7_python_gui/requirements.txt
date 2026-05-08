@@ -1,0 +1,7 @@
+#pip install -r requirements.txt
+scikit-learn
+pillow
+numpy
+matplotlib
+pandas
+streamlit
