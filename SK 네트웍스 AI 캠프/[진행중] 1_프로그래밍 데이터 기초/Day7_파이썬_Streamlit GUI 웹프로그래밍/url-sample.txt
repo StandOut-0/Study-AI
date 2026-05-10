@@ -1,0 +1,22 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day7
+
+스터디기록 - 블로그
+https://standout.tistory.com/1693
+
+에러기록
+1. 가상환경 생성오류 : 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.위치 줄:1 문자:1
+https://standout.tistory.com/1691
+
+2. Python Streamlit 종료방법: 이 전 서비스가 게속 돌아간다
+https://standout.tistory.com/1690
+
+3. run : 'run' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+https://standout.tistory.com/1694
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것.
+https://shelfstories.tistory.com/183
