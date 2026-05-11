@@ -1,0 +1,32 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day8
+
+스터디기록 - 블로그
+https://standout.tistory.com/1700
+
+에러기록
+1. 데이터베이스를 선택하고 CREATE하라: Error Code: 1046. No database selected Select the default DB to be used by double-clicking its name in the SCHEMAS list in the sidebar. 0.000 sec
+https://standout.tistory.com/1696
+
+2. MySQL의 안전업데이트 모드, 실수로 테이블 전체 업데이트하는것을 방지하기 위한 방안: Error Code: 1175 You are using safe update mode
+https://standout.tistory.com/1697
+
+3. Error Code: 1045. Access denied for user ''@'%' (using password: YES) 0.000 sec GRANT ALL ON *.* TO : 지금 접속한 계정이 권한을 줄 권한 자체가 없다.
+https://standout.tistory.com/1698
+
+4. Unknown File Encoding, ~ Please select the encoding of the file and press OK for Workbench to convert and open it: 인코딩이 안맞아 열 수 없다.
+https://standout.tistory.com/1699
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것.
+https://shelfstories.tistory.com/183
+
+2. 혼자 공부하는 파이썬
+혼자 공부하는 파이썬 - Chapter 03 조건문
+https://standout.tistory.com/1701
+
+혼자 공부하는 파이썬 - Chapter 04 반복문
+https://standout.tistory.com/1702
