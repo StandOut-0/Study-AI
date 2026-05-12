@@ -1,0 +1,36 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day*
+
+스터디기록 - 블로그
+https://standout.tistory.com/1712
+
+에러기록
+1. 	
+파이썬 실행중 컴퓨터 느려짐 : 파이썬 가상서버들 한방에 종료하기
+https://standout.tistory.com/1703
+
+2. 'npx' 용어가 cmdlet, 함수, 스크립트 파일 또는 실행할 수 있는 프로그램 이름으로 인식되지 않습니다. 이름이 정확한지 확인하고 경로가 포함된 경우 경로가 올바른지 검증한 다음 다시 시도하십시오.
+https://standout.tistory.com/1706
+	
+3. vscode running.....에러
+https://standout.tistory.com/1704
+
+4. python -m venv 실행 시 subprocess.py 및 communicate 오류 해결
+https://standout.tistory.com/1707
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것
+https://shelfstories.tistory.com/183
+
+2. 이것이 MySQL이다 - part01_MySQL 설치 및 DB 구축과정 미리 실습하기
+https://standout.tistory.com/1710
+
+자율스터디 - 블로그
+1. 파이썬튜터 Python Tutor : 프로그래밍 초보가 코드의 흐름을 쉽게 이해할 수 있도록 파이썬 코드를 시각화 해주는 도구
+https://standout.tistory.com/1705
+	
+2. Mysql vscode로 띄워 실행하기
+https://standout.tistory.com/1708
