@@ -1,0 +1,19 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day11
+
+스터디기록 - 블로그
+https://standout.tistory.com/1717
+
+에러기록
+1. response.text.find("") 못찾음, -1 : selenium
+https://standout.tistory.com/1715
+
+2. urllib.request.Request(web_page.url), header모바일은 잘되고 PC버전 다운안되는이유: feat.selenium
+https://standout.tistory.com/1716
+
+독서기록 - 블로그
+1. 교양: 사람이 알아야할 모든 것
+https://shelfstories.tistory.com/183
