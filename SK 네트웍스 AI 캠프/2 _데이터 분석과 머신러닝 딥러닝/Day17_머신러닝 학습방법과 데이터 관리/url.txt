@@ -1,0 +1,24 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_017
+
+스터디기록 - 블로그
+https://standout.tistory.com/1749
+
+에러기록
+
+독서기록 - 블로그
+1. 이기적 직원들이 만드는 최고의 회사
+https://shelfstories.tistory.com/198
+
+자율스터디
+1. random_state는 왜 42일까? 또 항상 써야할까? 선택일까?
+https://standout.tistory.com/1748
+
+2. sklearn과 Torch: 하는일을 같은데.. sklearn과 Torch 의 코드가 다른이유
+https://standout.tistory.com/1747
+
+3.CNN 이란?: CNN Concolutional Neural Network 합성곱 신경망, 이미지의 특징을 자동으로 찾자!
+https://standout.tistory.com/1744
