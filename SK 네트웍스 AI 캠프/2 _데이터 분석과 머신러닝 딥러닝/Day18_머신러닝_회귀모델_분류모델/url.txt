@@ -1,0 +1,16 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day
+
+스터디기록 - 블로그
+https://standout.tistory.com/1754
+
+에러기록
+1.VS Code + Colab extension으로 사용하기 : google login, "로그인하려는 사이트는 Colab에서 호스팅되지 않습니다." 해결방법, CPU <->GPU 바꾸기까지
+https://standout.tistory.com/1752
+
+독서기록 - 블로그
+1. 이기적 직원들이 만드는 최고의 회사
+https://shelfstories.tistory.com/198
