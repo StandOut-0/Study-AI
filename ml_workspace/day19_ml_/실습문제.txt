@@ -1,0 +1,110 @@
+[실습 1]
+나이브 베이즈 스팸 문자 분류기에서
+다음 조건으로 라플라스 스무딩을 각각 적용하여 모델을 학습해 보시오.
+
+실험	Laplace
+실험1	0
+실험2	0.1
+실험3	0.5
+실험4	1.0
+
+결과표
+   laplace  accuracy
+0      0.0  0.980617
+1      0.1  0.983489
+2      0.5  0.983489
+3      1.0  0.982053
+
+
+[서술]
+7. 라플라스 스무딩 없는 Naive Bayes 모델 학습에서 아래와같이 코드 수정
+laplace_values = [0.0, 0.1, 0.5, 1.0]
+results = []
+
+for lap in laplace_values:
+    nb_model = TorchBernoulliNaiveBayes(
+        num_features=num_features,
+        num_classes=num_classes,
+        laplace=lap
+    ).to(device)
+    print(f"laplace={lap}", '-'*50)
+    nb_model.fit(X_train_tensor, y_train_tensor)
+
+    
+    with torch.no_grad():
+        y_pred_tensor = nb_model.predict(X_test_tensor)
+        y_proba_tensor = nb_model.predict_proba(X_test_tensor)
+
+    y_pred = y_pred_tensor.cpu().numpy()
+    y_proba = y_proba_tensor.cpu().numpy()
+
+    accuracy = accuracy_score(y_test_np, y_pred)
+    cm = confusion_matrix(y_test_np, y_pred)
+
+    print("정확도 Accuracy:", accuracy)
+    acc = accuracy_score(y_test_np, y_pred)
+    results.append({
+        "laplace": lap,
+        "accuracy": acc
+    })
+df = pd.DataFrame(results)
+print()
+print(df)
+    
+
+
+[출력값]
+laplace=0.0 --------------------------------------------------
+정확도 Accuracy: 0.9806173725771715
+laplace=0.1 --------------------------------------------------
+정확도 Accuracy: 0.9834888729361091
+laplace=0.5 --------------------------------------------------
+정확도 Accuracy: 0.9834888729361091
+laplace=1.0 --------------------------------------------------
+정확도 Accuracy: 0.9820531227566404
+
+   laplace  accuracy
+0      0.0  0.980617
+1      0.1  0.983489
+2      0.5  0.983489
+3      1.0  0.982053
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------
+[실습 2] 
+svm 문자 분류기에서 Confusion Matrix 분석
+가장 많이 혼동되는 문자 3개는?
+P G D
+
+[서술] 
+19. RBF 특징 SVM 혼동 행렬에서 아래와같이 코드를 추가.
+cm_copy = cm_rbf_df
+for i in range(len(cm_copy)):
+    cm_copy.iloc[i, i] = 0
+top3 = cm_copy.stack().sort_values(ascending=False).head(3)
+top3
+
+[출력값]
+0
+P	F	17
+G	C	14
+D	B	8
+dtype: int64
+
+
+
+
+
+완료.
