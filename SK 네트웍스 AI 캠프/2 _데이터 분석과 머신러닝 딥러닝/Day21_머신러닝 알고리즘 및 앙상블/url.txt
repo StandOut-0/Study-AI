@@ -1,0 +1,23 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_021
+
+스터디기록 - 블로그
+https://standout.tistory.com/1763
+
+에러기록
+1. vscode Colab extension 환경에서 데이터 파일을 찾지못한다 . FileNotFoundError
+https://standout.tistory.com/1762
+
+독서기록 - 블로그
+1. 초역 논어의말
+https://shelfstories.tistory.com/199
+
+자율 스터디
+1. 무료 erd 생성 툴 비교하기: dbdiagram.io, ERDCloud, miro, draw.io
+https://standout.tistory.com/1765
+
+2. 2026v. pdf 읽고 설명하는 인공지능 사용후기: 구글 notebooklm, paperpal, chatgpt 비교하기
+https://standout.tistory.com/1764
