@@ -1,0 +1,18 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_023
+
+스터디기록 - 블로그
+https://standout.tistory.com/1794
+
+에러기록
+1.VS code에서 Google Colab커널에 연결하려다가 실패, Failed to start the Kernel 'Python 3 (ipykernel)'. ~ google.colab
+https://standout.tistory.com/1787
+
+독서기록 - 블로그
+
+자율 스터디
+1. 파이토치 딥러닝 마스터 - 1부 - 2장 사전 훈련된 신경망
+https://standout.tistory.com/1793
