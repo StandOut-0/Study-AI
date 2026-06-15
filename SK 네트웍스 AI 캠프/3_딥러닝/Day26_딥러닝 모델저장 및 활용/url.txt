@@ -1,0 +1,18 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_026
+
+스터디기록 - 블로그
+https://standout.tistory.com/1802
+
+에러기록
+
+
+독서기록 - 블로그
+1. 팀 개발을 위한 Git GitHub시작하기
+https://standout.tistory.com/1803
+
+
+자율 스터디
