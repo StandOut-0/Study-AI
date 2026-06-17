@@ -1,0 +1,27 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_28
+
+스터디기록 - 블로그
+https://standout.tistory.com/1812
+
+에러기록
+RenDer 실행 중 오류 ValueError: numpy.dtype size changed, may indicate binary incompatibility. Expected 96 from C header, got 88 from PyObject  :pandas 2.1.1 + numpy 1.26.4 조합은 Render/Docker에서 자주 ABI 깨진다. 해결법
+https://standout.tistory.com/1810
+
+
+NumPy 2.x와 OpenCV의 호환성 문제 A module that was compiled using NumPy 1.x cannot be run in NumPy 2.4.6AttributeError: _ARRAY_API not found: Python 3.10~3.11numpy 1.26.4opencv-python 4.8.x
+https://standout.tistory.com/1809
+
+cv2.imshow() is disabled in Colab, because it causes Jupyter sessionsto crash; see https://github.com/jupyter/notebook/issues/3935: cv2.imsow()를 Colab이 표현할 수 없을때 google.colab import drive
+https://standout.tistory.com/1808
+
+
+독서기록 - 블로그
+
+
+자율 스터디
+1. render로 github사용해 무료 호스팅하기: 내 컴퓨터에만 돌아가던 코드를 인터넷 주소로 접속 가능하게하자
+https://standout.tistory.com/1811
