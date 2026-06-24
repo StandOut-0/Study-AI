@@ -1,0 +1,27 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_032
+
+스터디기록 - 블로그
+https://standout.tistory.com/1828
+
+에러기록
+1. $ git config --system credential.helper 자격증명이 오래되어서 재 연결이 필요하다
+https://standout.tistory.com/1821
+
+2. wordcloud 만들때 데이터가 string형인가 dict형인가 generate() , generate_from_frequencies() - TypeError: unhashable type: 'dict' wordcloud.generate
+https://standout.tistory.com/1829
+
+3. csv는 encoding='cp949'로 인코딩해보기! : UnicodeDecodeError: 'utf-8' codec can't decode byte 0xbf in position 0: invalid start byte
+https://standout.tistory.com/1830
+
+독서기록 - 블로그
+1. Do it! 자바 완전 정복
+https://standout.tistory.com/manage/newpost/1816?type=post&returnURL=https%3A%2F%2Fstandout.tistory.com%2Fmanage%2Fposts
+
+
+자율 스터디
+1. 파이토치 딥러닝 마스터 - 1부 - 3장 텐서 구조체
+https://standout.tistory.com/1820
