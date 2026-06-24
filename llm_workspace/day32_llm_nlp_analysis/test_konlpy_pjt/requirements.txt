@@ -1,0 +1,3 @@
+konlpy
+JPype1
+wordcloud

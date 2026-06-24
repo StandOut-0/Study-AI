@@ -1,0 +1,10 @@
+# 설치 확인
+java --version
+python --version: 3.11
+pip install konlpy: jdk 8이상필요
+pip install jpype1: python과 java연결
+pip install wordcloud
+
+pip install -r requirements.txt
+
+git push -u origin main
