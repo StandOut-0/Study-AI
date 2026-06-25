@@ -1,0 +1,106 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# NLP Model Files
+
+models/
+checkpoints/
+saved_model/
+weights/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.model
+
+# Dataset Files
+
+data/
+datasets/
+corpus/
+raw_data/
+
+# Logs
+
+logs/
+*.log
+
+# Cache
+
+.cache/
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Environment Variables
+
+.env
+.env.*
+
+# Build
+
+build/
+dist/
+*.egg-info/
+
+# LDA / Topic Modeling Results
+
+lda_results/
+topic_results/
+output/
+
+# Word2Vec / FastText Results
+
+word2vec_model/
+fasttext_model/
+embedding/
+
+# Temporary Files
+
+temp/
+tmp/
+*.tmp
+
+# Coverage
+
+.coverage
+htmlcov/
+
+# NLTK / HuggingFace Cache
+
+nltk_data/
+hf_cache/
+transformers_cache/
+
+# PyTorch
+
+runs/
+
+# TensorFlow
+
+tensorboard_logs/
+events.out.tfevents.*
