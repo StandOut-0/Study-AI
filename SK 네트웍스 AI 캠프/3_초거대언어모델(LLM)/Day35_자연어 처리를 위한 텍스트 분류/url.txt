@@ -1,0 +1,27 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_035
+
+스터디기록 - 블로그
+https://standout.tistory.com/1855
+
+에러기록
+
+
+독서기록 - 블로그
+
+
+자율 스터디
+	
+파이토치 딥러닝 마스터 - 1부 - 4장 실제 데이터를 텐서로 표현해보기
+https://standout.tistory.com/1852
+
+	
+파이토치 딥러닝 마스터 - 1부 - 5장 학습기법
+https://standout.tistory.com/1853
+
+	
+파이토치 딥러닝 마스터 - 1부 - 6장 신경망을 활용한 데이터 적합
+https://standout.tistory.com/1854
