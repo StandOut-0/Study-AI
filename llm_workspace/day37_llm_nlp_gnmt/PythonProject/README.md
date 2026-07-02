@@ -29,6 +29,17 @@ smart_translator_torch_streamlit_project/
 └─ requirements.txt
 ```
 
+
+
+Remove-Item -Recurse -Force .venv
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip setuptools wheel
+python -m pip install setuptools==81.0.0
+pip install -r requirements.txt
+python -m src.train
+streamlit run app/streamlit_app.py
+
 ## 설치
 ```bash
 python -m pip install --upgrade pip setuptools wheel
