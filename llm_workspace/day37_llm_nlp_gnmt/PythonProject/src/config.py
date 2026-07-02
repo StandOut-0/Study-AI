@@ -21,7 +21,28 @@ EMBED_SIZE = 64
 
 # RNN의 은닉 상태 차원입니다.
 # 값이 클수록 표현력이 커질 수 있지만 학습 시간이 증가할 수 있습니다.
-HIDDEN_SIZE = 128
+# HIDDEN_SIZE = 128
+#  Transformer는 hidden개념이 없다. 삭제.
+
+
+# Transformer 모델 차원
+D_MODEL = 64   # EMBED_SIZE와 보통 동일하게 맞춤
+EMBED_SIZE = D_MODEL
+
+# Multi-Head Attention 개수
+N_HEADS = 8
+
+# Encoder / Decoder layer 수
+NUM_LAYERS = 3
+
+# Dropout (과적합 방지)
+DROPOUT = 0.1
+
+
+
+
+
+
 
 # 학습 반복 횟수입니다.
 # 강의교안의 MY_EPOCH 개념에 해당하며, 데이터 전체를 몇 번 반복 학습할지 결정합니다.
