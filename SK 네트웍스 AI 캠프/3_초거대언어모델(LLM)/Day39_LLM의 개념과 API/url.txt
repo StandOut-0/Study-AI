@@ -1,0 +1,13 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_039
+
+스터디기록 - 블로그
+https://standout.tistory.com/1882
+
+
+자율 스터디
+1. 	GPT 채팅방 전체삭제 및 시크릿모드
+https://standout.tistory.com/1880
