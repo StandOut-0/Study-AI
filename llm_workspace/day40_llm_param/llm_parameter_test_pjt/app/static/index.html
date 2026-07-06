@@ -16,6 +16,7 @@
     <button id="healthBtn" class="secondary-btn">서버 상태 확인</button>
   </header>
 
+  <button id="providerToggle">현재: Gemini</button>
   <main class="container">
     <section class="status-card" id="statusCard">
       <strong>상태:</strong> 서버 확인 전입니다.
@@ -23,7 +24,7 @@
 
     <section class="grid">
       <article class="card">
-        <h2>1. Gemini 기본 호출</h2>
+        <h2 id="basicTitle">1. Gemini 기본 호출</h2>
         <label>프롬프트</label>
         <textarea id="basicPrompt" rows="4">승승장구몰을 한 문장으로 홍보해줘.</textarea>
         <div class="row">

@@ -33,8 +33,14 @@ def _safe_usage(resp) -> dict:
     }
 
 
-def gemini_basic_call(prompt: str, temperature: float = 0.7, max_output_tokens: Optional[int] = 300) -> dict:
+def gemini_basic_call(prompt: str, temperature: float = 0.7, max_output_tokens: Optional[int] = 300, provider: str = "gemini",) -> dict:
     """시스템 지시 없이 Gemini를 1회 호출합니다."""
+
+    if provider == "openai":
+        return openai_chat(
+            system_instruction="",
+            user_message=prompt,
+        )
 
     # google-genai 설정 객체를 사용하기 위해 types를 불러옵니다.
     from google.genai import types

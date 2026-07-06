@@ -1,6 +1,37 @@
 const resultBox = document.getElementById('resultBox');
 const statusCard = document.getElementById('statusCard');
 
+
+let provider = "gemini";
+// document.getElementById("providerToggle").addEventListener("click", () => {
+//   provider = provider === "gemini" ? "openai" : "gemini";
+//
+//   document.getElementById("providerToggle").textContent =
+//     provider === "gemini" ? "현재: Gemini" : "현재: OpenAI";
+// });
+
+document.getElementById("providerToggle").addEventListener("click", () => {
+
+  provider = provider === "gemini" ? "openai" : "gemini";
+
+  updateUI(provider);
+});
+
+function updateUI(provider) {
+
+  console.log("JS loaded!!");
+  const title = document.getElementById("basicTitle");
+  const btn = document.getElementById("providerToggle");
+
+  if (provider === "gemini") {
+    title.textContent = "1. Gemini 기본 호출";
+    btn.textContent = "현재: Gemini";
+  } else {
+    title.textContent = "1. OpenAI 기본 호출";
+    btn.textContent = "현재: OpenAI";
+  }
+}
+
 function value(id) {
   return document.getElementById(id).value;
 }
@@ -51,10 +82,20 @@ document.getElementById('healthBtn').addEventListener('click', checkHealth);
 window.addEventListener('load', checkHealth);
 
 async function callBasic() {
-  const title = 'Gemini 기본 호출 결과';
+   const title =
+      provider === "openai"
+      ? "OpenAI 기본 호출 결과"
+      : "Gemini 기본 호출 결과";
   showLoading(title);
+
   try {
-    const data = await postJson('/api/llm/gemini/basic', {
+    const url =
+      provider === "openai"
+      ? "/api/llm/openai/basic"
+      : "/api/llm/gemini/basic";
+
+    const data = await postJson(url,
+        {
       prompt: value('basicPrompt'),
       temperature: numberValue('basicTemperature'),
       max_output_tokens: numberValue('basicMaxTokens'),

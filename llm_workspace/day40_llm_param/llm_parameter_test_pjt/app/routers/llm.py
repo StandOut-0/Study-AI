@@ -27,6 +27,21 @@ from app.services.llm_service import (
 router = APIRouter(prefix="/api/llm", tags=["LLM 실습 테스트"])
 
 
+
+
+@router.post("/openai/basic", response_model=LLMResponse)
+def call_openai_basic(request: BasicPromptRequest):
+    """OpenAI 기본 호출 (Gemini basic과 동일 구조)"""
+
+    try:
+        return openai_chat(
+            system_instruction="",
+            user_message=request.prompt,
+        )
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=str(exc)) from exc
+
+
 @router.post("/gemini/basic", response_model=LLMResponse)
 def call_gemini_basic(request: BasicPromptRequest):
     """Gemini 기본 호출을 테스트합니다."""
