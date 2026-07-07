@@ -1,7 +1,28 @@
 # FastAPI ChatGPT 챗봇 앱 프로젝트
 
-제공된 React 챗봇 예제를 참고하여 FastAPI 백엔드와 순수 HTML/CSS/JavaScript 화면으로 다시 작성한 ChatGPT 챗봇 프로젝트입니다.
+제공된 React 챗봇 예제를 참고하여 FastAPI 백엔드와 순수 HTML/CSS/JavaScript 화면으로 다시 작성한 ChatGPT 챗봇 프로젝트입니다.<br><br><br>
 
+## 실습 [STUDY] Day39 - chatbot - 이전대화기록을 포함하고 설정값 지정할수있도록하기 
+<img width="1078" height="814" alt="image" src="https://github.com/user-attachments/assets/07113885-417e-4ad5-8ec5-96cbbd2fd993" />
+
+main에 설정값 instruction등을 추가했다.
+<img width="1323" height="886" alt="image" src="https://github.com/user-attachments/assets/88d385d1-9bfe-4212-a102-ee158b42d947" />
+
+
+schemas와 servce.py에 설정값 instruction등을 추가했다.
+<img width="1323" height="886" alt="image" src="https://github.com/user-attachments/assets/92b324e5-b1ef-4e7b-86bb-d4b9133d6a65" />
+
+<img width="1323" height="1013" alt="image" src="https://github.com/user-attachments/assets/e57f8462-6430-4046-a2b8-1c799d43aefb" />
+
+
+
+js에 변수를 더 추가해 돌아가도록 한뒤 간단히 css를 추가했다 .
+<img width="1323" height="1013" alt="image" src="https://github.com/user-attachments/assets/248f1037-6ccc-4eac-a918-f24df621e459" />
+
+<img width="1323" height="1013" alt="image" src="https://github.com/user-attachments/assets/8dcaeea4-bdce-4f49-8319-6dbcf58ed208" />
+
+
+<br><br><br><br><br><br>
 ## 1. 프로젝트 특징
 
 - FastAPI로 백엔드 API 구현
