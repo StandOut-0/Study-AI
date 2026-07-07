@@ -42,7 +42,16 @@ client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 
 
 # 사용자 질문과 이전 대화 내역을 받아 챗봇 답변을 생성하는 함수입니다.
-def generate_chat_reply(message: str, history: List[ChatMessage]) -> tuple[str, bool]:
+# def generate_chat_reply(message: str, history: List[ChatMessage]) -> tuple[str, bool]:
+def generate_chat_reply(
+    message: str,
+    history: List[ChatMessage],
+    system_instruction: str | None = None,
+    model: str | None = None,
+    temperature: float = 0.7,
+    top_p: float = 1.0,
+    max_tokens: int = 1024,
+):
     # API 키가 없으면 실제 ChatGPT API를 호출할 수 없습니다.
     # 수업 또는 화면 테스트가 가능하도록 데모 응답을 반환합니다.
     if client is None:
@@ -59,10 +68,19 @@ def generate_chat_reply(message: str, history: List[ChatMessage]) -> tuple[str, 
 
     # OpenAI API에 전달할 메시지 목록을 생성합니다.
     # 첫 번째 system 메시지는 챗봇의 역할과 답변 스타일을 지정합니다.
+    # messages = [
+    #     {
+    #         "role": "system",
+    #         "content": "너는 한국어로 친절하고 정확하게 답변하는 FastAPI 기반 ChatGPT 챗봇이다.",
+    #     }
+    # ]
     messages = [
         {
             "role": "system",
-            "content": "너는 한국어로 친절하고 정확하게 답변하는 FastAPI 기반 ChatGPT 챗봇이다.",
+            "content":
+                system_instruction
+                or
+                "너는 한국어로 친절하고 정확하게 답변하는 FastAPI 기반 ChatGPT 챗봇이다."
         }
     ]
 
@@ -79,10 +97,17 @@ def generate_chat_reply(message: str, history: List[ChatMessage]) -> tuple[str, 
 
     # OpenAI Chat Completions API를 호출합니다.
     # temperature는 답변의 창의성 정도이며, 0에 가까울수록 일관적이고 1에 가까울수록 다양해집니다.
+    # completion = client.chat.completions.create(
+    #     model=OPENAI_MODEL,
+    #     messages=messages,
+    #     temperature=0.7,
+    # )
     completion = client.chat.completions.create(
-        model=OPENAI_MODEL,
+        model=model or OPENAI_MODEL,
         messages=messages,
-        temperature=0.7,
+        temperature=temperature,
+        top_p=top_p,
+        max_tokens=max_tokens,
     )
 
     # 응답 객체에서 첫 번째 답변 메시지 내용을 꺼냅니다.
@@ -90,3 +115,4 @@ def generate_chat_reply(message: str, history: List[ChatMessage]) -> tuple[str, 
 
     # 두 번째 값 False는 실제 API를 사용했다는 의미입니다.
     return reply, False
+

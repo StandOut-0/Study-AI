@@ -48,9 +48,37 @@ class ChatRequest(BaseModel):
 
     # history는 이전 대화 내역입니다.
     # 기본값을 빈 리스트로 두어 첫 질문에서도 오류 없이 처리되게 합니다.
-    history: List[ChatMessage] = Field(
-        default_factory=list,
-        description="이전 대화 내역",
+    # history: List[ChatMessage] = Field(
+    #     default_factory=list,
+    #     description="이전 대화 내역",
+    # )
+    history: List[ChatMessage] = Field(default_factory=list)
+
+    system_instruction: str | None = Field(
+        default=None,
+        description="시스템 프롬프트"
+    )
+
+    model: str | None = Field(
+        default=None,
+        description="사용할 모델"
+    )
+
+    temperature: float = Field(
+        default=0.7,
+        ge=0,
+        le=2
+    )
+
+    top_p: float = Field(
+        default=1.0,
+        ge=0,
+        le=1
+    )
+
+    max_tokens: int = Field(
+        default=1024,
+        gt=0
     )
 
 

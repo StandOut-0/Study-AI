@@ -194,3 +194,31 @@ body {
     opacity: 0.6;
     cursor: not-allowed;
 }
+
+
+
+
+
+
+
+
+
+.chat-settings{
+    padding:10px;
+    border-bottom:1px solid #ddd;
+}
+
+.chat-settings label{
+    display:block;
+    margin-top:8px;
+    font-size:13px;
+    font-weight:bold;
+}
+
+.chat-settings input,
+.chat-settings textarea,
+.chat-settings select{
+    width:100%;
+    margin-top:3px;
+    box-sizing:border-box;
+}

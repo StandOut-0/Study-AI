@@ -79,12 +79,26 @@ def chat(request: ChatRequest) -> ChatResponse:
     # try 블록 안에서 OpenAI API 호출 또는 데모 응답 생성을 처리합니다.
     try:
         # 서비스 함수에 사용자 질문과 이전 대화 기록을 전달합니다.
-        reply, used_demo_mode = generate_chat_reply(request.message, request.history)
+        reply, used_demo_mode = generate_chat_reply(
+            # request.message, request.history
+            message=request.message,
+            history=request.history,
+            system_instruction=request.system_instruction,
+            model=request.model,
+            temperature=request.temperature,
+            top_p=request.top_p,
+            max_tokens=request.max_tokens,
+        )
 
         # 정해진 응답 형식으로 답변을 반환합니다.
         return ChatResponse(reply=reply, used_demo_mode=used_demo_mode)
 
     # 예상하지 못한 오류가 발생했을 때 500 상태 코드로 응답합니다.
     except Exception as exc:
-        # 실제 운영 환경에서는 exc 내용을 그대로 노출하지 않는 것이 더 안전할 수 있습니다.
-        raise HTTPException(status_code=500, detail=f"챗봇 응답 생성 중 오류가 발생했습니다: {exc}") from exc
+        # # 실제 운영 환경에서는 exc 내용을 그대로 노출하지 않는 것이 더 안전할 수 있습니다.
+        # raise HTTPException(status_code=500, detail=f"챗봇 응답 생성 중 오류가 발생했습니다: {exc}") from exc
+        import traceback
+        traceback.print_exc()  # 콘솔에 전체 오류 출력
+        raise HTTPException(
+            status_code=500,
+            detail=str(exc))
