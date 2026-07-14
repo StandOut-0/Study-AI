@@ -1,0 +1,21 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day_044
+
+스터디기록 - 블로그
+https://standout.tistory.com/1904
+
+에러기록
+
+
+독서기록 - 블로그
+
+
+자율 스터디
+파이토치 딥러닝 마스터 - 1부 - 7장 새와 비행기 구별하기: 이미지 학습
+https://standout.tistory.com/1905
+	
+파이토치 딥러닝 마스터 - 1부 - 8장 컨볼루션을 활용한 일반화
+https://standout.tistory.com/1906
