@@ -1,0 +1,22 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day
+
+스터디기록 - 블로그
+https://standout.tistory.com/1917
+
+에러기록
+ModelCheckpoint() 확장자가 반드시 .keras여야한다. + ValueError:The filepath provided must end in `.keras`
+https://standout.tistory.com/1914
+
+ValueError:Unrecognized keyword arguments passed to Model:{'input': ..., 'outputs': ...} Keras(2.x 초반) 문법 -> Keras3에서는 input -> inputs
+https://standout.tistory.com/1913
+
+메모리 부족(MemoryError) : numpy._core._exceptions._ArrayMemoryError:
+https://standout.tistory.com/1912
+
+독서기록 - 블로그
+
+자율 스터디
