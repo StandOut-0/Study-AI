@@ -1,0 +1,21 @@
+일정기록
+https://crystalline-homburg-b9b.notion.site/SK-AI-350e31f74aa380fb860eeb3433904b85?source=copy_link
+
+스터디기록 - git
+https://github.com/StandOut-0/Study-AI/commits/day
+
+스터디기록 - 블로그
+https://standout.tistory.com/1920
+
+에러기록
+
+
+독서기록 - 블로그
+
+
+자율 스터디
+VGG16, 현재는 주로 교육, 연구, 전이학습(Transfer Learning), 비교 기준(Baseline) 용도로 많이 사용되는 모델
+https://standout.tistory.com/1916
+
+InceptionV3, 의료 이미지(망막 질환, 피부 병변, x-ray, ct 이미지 분석)에 여전히 사용되는 2015년 Google의 Inception 계열 모델
+https://standout.tistory.com/1915
