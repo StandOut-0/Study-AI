@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.idea/
+.vscode/
+outputs/checkpoints/*
+outputs/qwen2.5-korean-sft-lora/*
+!outputs/checkpoints/.gitkeep
